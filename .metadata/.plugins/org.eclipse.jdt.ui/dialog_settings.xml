@@ -29,7 +29,7 @@
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
 		<item key="LimitElements" value="false"/>
-		<item key="IgnoreDefault" value="true"/>
+		<item key="IgnoreDefault" value="false"/>
 		<item key="StringStyle" value="0"/>
 		<item key="LimitValue" value="10"/>
 		<item key="SkipNull" value="false"/>
@@ -58,7 +58,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="459"/>
+		<item key="DIALOG_X_ORIGIN" value="407"/>
 		<item key="DIALOG_Y_ORIGIN" value="76"/>
 		<item key="DIALOG_WIDTH" value="531"/>
 		<item key="DIALOG_HEIGHT" value="678"/>

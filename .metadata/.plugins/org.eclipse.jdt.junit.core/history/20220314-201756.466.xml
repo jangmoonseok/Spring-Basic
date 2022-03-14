@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RateDiscountPolicyTest" project="hello" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.demo.discount.RateDiscountPolicyTest" time="0.063" displayname="RateDiscountPolicyTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.discount.RateDiscountPolicyTest]">
+    <testcase name="vip_o" classname="com.example.demo.discount.RateDiscountPolicyTest" time="0.062" displayname="VIP는 10% 할인이 적용되어야 한다" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.discount.RateDiscountPolicyTest]/[method:vip_o()]"/>
+    <testcase name="vip_x" classname="com.example.demo.discount.RateDiscountPolicyTest" time="0.001" displayname="VIP가 아니면 할인이 적용되지 않아야 한다" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.discount.RateDiscountPolicyTest]/[method:vip_x()]"/>
+  </testsuite>
+</testrun>

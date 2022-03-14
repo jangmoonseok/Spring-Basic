@@ -4,11 +4,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
     <fullyQualifiedTypeName name="com.example.demo.controller.HelloController.Hello"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.HashMap"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Assertions"/>
-    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
     <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
     <fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
@@ -18,7 +14,6 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
-    <fullyQualifiedTypeName name="com.example.demo.service.MemberService"/>
     <fullyQualifiedTypeName name="com.example.demo.repository.MemberRepository"/>
     <fullyQualifiedTypeName name="com.example.demo.repository.MemoryMemberRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
@@ -34,4 +29,21 @@
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Member"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.example.demo.service.MemberService"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.MemberRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.MemoryMemberRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.discount.DiscountPolicy"/>
+    <fullyQualifiedTypeName name="com.example.demo.discount.FixDiscountPolicy"/>
+    <fullyQualifiedTypeName name="com.example.demo.order.Order"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.MemberService"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.MemberServiceImpl"/>
+    <fullyQualifiedTypeName name="com.example.demo.order.OrderService"/>
+    <fullyQualifiedTypeName name="com.example.demo.order.OrderServiceImpl"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.Member"/>
+    <fullyQualifiedTypeName name="com.example.demo.member.Grade"/>
+    <fullyQualifiedTypeName name="org.assertj.core.api.Assertions"/>
 </qualifiedTypeNameHistroy>

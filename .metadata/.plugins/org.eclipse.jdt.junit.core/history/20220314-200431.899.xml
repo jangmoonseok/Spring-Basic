@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MemberServiceTest (1)" project="hello" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.example.demo.member.MemberServiceTest" time="0.0" displayname="MemberServiceTest" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.member.MemberServiceTest]">
-    <testcase name="join" classname="com.example.demo.member.MemberServiceTest" time="0.0" displayname="join()" uniqueid="[engine:junit-jupiter]/[class:com.example.demo.member.MemberServiceTest]/[method:join()]"/>
-  </testsuite>
-</testrun>

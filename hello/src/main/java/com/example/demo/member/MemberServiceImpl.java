@@ -1,14 +1,19 @@
 package com.example.demo.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MemberServiceImpl implements MemberService{
 
 	private final MemberRepository memberRepository;
 	
-	
+	@Autowired
 	public MemberServiceImpl(MemberRepository memberRepository) {
 		super();
 		this.memberRepository = memberRepository;
 	}
+
 
 	@Override
 	public void join(Member member) {
@@ -20,4 +25,8 @@ public class MemberServiceImpl implements MemberService{
 		return memberRepository.findById(memberId);
 	}
 
+	//테스트용 코드
+	public MemberRepository getMemberRepository() {
+		return memberRepository;
+	}
 }

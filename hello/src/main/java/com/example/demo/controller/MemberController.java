@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.example.demo.domain.Member;
 import com.example.demo.service.MemberService;
 
-@Controller
+//@Controller
 public class MemberController {
 	private final MemberService memberService;
 

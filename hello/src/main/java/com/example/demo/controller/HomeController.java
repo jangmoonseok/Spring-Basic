@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.example.demo.domain.Member;
 
-@Controller
+//@Controller
 public class HomeController {
 
 	@GetMapping("/")

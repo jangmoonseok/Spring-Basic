@@ -1,7 +1,8 @@
 package com.example.demo.beanfind;
 
 
-import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

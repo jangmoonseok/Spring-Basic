@@ -12,7 +12,7 @@ public class ComponentFilterAppConfigTest {
 	void filterScan() {
 		AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(ComponentFilterAppConfig.class);
 		BeanA beanA = ac.getBean("beanA", BeanA.class);
-		ac.getBean("beanB", BeanB.class);
+//		ac.getBean("beanB", BeanB.class);
 		
 		Assertions.assertThat(beanA).isNotNull();
 	}

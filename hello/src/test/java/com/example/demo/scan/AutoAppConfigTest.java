@@ -5,7 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import com.example.demo.AutoAppConfig;
+import com.example.demo.member.MemberRepository;
 import com.example.demo.member.MemberService;
+import com.example.demo.order.OrderServiceImpl;
 
 public class AutoAppConfigTest {
 
@@ -13,8 +15,12 @@ public class AutoAppConfigTest {
 	void basicScan() {
 		AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
 		
-		MemberService bean = ac.getBean(MemberService.class);
+		MemberService memberService = ac.getBean(MemberService.class);
 		
-		Assertions.assertThat(bean).isInstanceOf(MemberService.class);
+		Assertions.assertThat(memberService).isInstanceOf(MemberService.class);
+		
+		OrderServiceImpl orderService = ac.getBean(OrderServiceImpl.class);
+		MemberRepository memberRepository = orderService.getMemberRepository();
+		System.out.println("memberRepository = " + memberRepository);
 	}
 }

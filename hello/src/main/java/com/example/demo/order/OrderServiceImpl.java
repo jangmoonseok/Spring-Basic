@@ -10,19 +10,22 @@ import com.example.demo.member.Member;
 import com.example.demo.member.MemberRepository;
 import com.example.demo.member.MemoryMemberRepository;
 
+import lombok.RequiredArgsConstructor;
+
 @Component
+@RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService{
 
 	private final MemberRepository memberRepository;
 	private final DiscountPolicy discountPolicy;
 	
 	
-	@Autowired
-	public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-		super();
-		this.memberRepository = memberRepository;
-		this.discountPolicy = discountPolicy;
-	}
+//	@Autowired
+//	public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
+//		super();
+//		this.memberRepository = memberRepository;
+//		this.discountPolicy = discountPolicy;
+//	}
 
 
 
